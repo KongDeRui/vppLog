@@ -50,7 +50,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'vppReve.urls'
+ROOT_URLCONF = 'vppLog.urls'
 
 TEMPLATES = [
     {
@@ -69,7 +69,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'vppReve.wsgi.application'
+WSGI_APPLICATION = 'vppLog.wsgi.application'
 
 
 # Database
